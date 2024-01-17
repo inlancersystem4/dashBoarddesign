@@ -29,7 +29,7 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      border: 1px solid #E5E7EB;
+      border-bottom: 1px solid #E5E7EB;
   }
 
   .layout-main-content {
@@ -43,6 +43,7 @@
   .layout-sidebar {
       width: 100%;
       max-width: 250px;
+      min-width: 250px;
       height: 100%;
       overflow-y: auto;
       border-right: 1px solid #E5E7EB;
@@ -85,13 +86,20 @@
       color: #111827;
   }
 
-  .layout-sidebar .link:hover {
+  .layout-sidebar .link:hover,
+  .layout-sidebar .link:focus {
       background-color: #F3F4F6;
   }
+
 
   .layout-sidebar .accordion-item .accordion-link-list {
       display: none;
   }
+
+  .layout-sidebar .accordion-item.accordion-item_active div.link {
+      background-color: #F3F4F6;
+  }
+
 
   .layout-sidebar .accordion-item.accordion-item_active .arraow-icon {
       transform: rotate(180deg);
@@ -102,6 +110,10 @@
   }
 
   .layout-sidebar .accordion-item.accordion-item_active .accordion-link-list {
+      display: block;
+  }
+
+  .layout-sidebar .accordion-item:focus .accordion-link-list {
       display: block;
   }
 

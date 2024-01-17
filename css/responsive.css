@@ -1,0 +1,14 @@
+@media (max-width:1024px) {
+
+    .layout-sidebar {
+        display: none;
+    }
+
+    .layout-sidebar.responsive_sidebar {
+        position: fixed;
+        left: 0;
+        top: 0;
+        display: block;
+    }
+
+}
