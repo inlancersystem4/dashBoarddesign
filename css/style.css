@@ -1,0 +1,116 @@
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+  }
+
+
+  html,
+  body {
+      width: 100%;
+      max-width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background-color: #F9FAFB;
+  }
+
+
+  .layout-warrper {
+      width: 100%;
+  }
+
+  .layout-header {
+      height: 70px;
+      padding: 12px 20px;
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border: 1px solid #E5E7EB;
+  }
+
+  .layout-main-content {
+      width: 100%;
+      height: calc(100dvh - 70px);
+      overflow: hidden;
+      display: flex;
+      align-items: stretch;
+  }
+
+  .layout-sidebar {
+      width: 100%;
+      max-width: 250px;
+      height: 100%;
+      overflow-y: auto;
+      border-right: 1px solid #E5E7EB;
+      background-color: white;
+  }
+
+  .layout-content {
+      padding: 16px;
+      height: 100%;
+      overflow-y: auto;
+  }
+
+  .layout-sidebar .link {
+      padding: 4px 8px;
+      border-radius: 12px;
+      -webkit-border-radius: 12px;
+      -moz-border-radius: 12px;
+      -ms-border-radius: 12px;
+      -o-border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between
+  }
+
+  .layout-sidebar .link.active-link .link-item {
+      color: #0E9F6E;
+  }
+
+  .layout-sidebar .link.active-link .link-item .icon svg path {
+      fill: #0E9F6E;
+  }
+
+  .link-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      font-size: 16px;
+      font-weight: 500;
+      color: #111827;
+  }
+
+  .layout-sidebar .link:hover {
+      background-color: #F3F4F6;
+  }
+
+  .layout-sidebar .accordion-item .accordion-link-list {
+      display: none;
+  }
+
+  .layout-sidebar .accordion-item.accordion-item_active .arraow-icon {
+      transform: rotate(180deg);
+      -webkit-transform: rotate(180deg);
+      -moz-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+      -o-transform: rotate(180deg);
+  }
+
+  .layout-sidebar .accordion-item.accordion-item_active .accordion-link-list {
+      display: block;
+  }
+
+  .layout-sidebar .link .icon {
+      min-width: 24px;
+      max-width: 24px;
+      min-height: 24px;
+      max-height: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
