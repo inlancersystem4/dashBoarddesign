@@ -8,7 +8,26 @@
         position: fixed;
         left: 0;
         top: 0;
-        display: block;
+        display: flex;
+        z-index: 10;
+        transform: translateX(-250px);
+        transition: transform 0.5s ease-in;
+        animation: toggle_sidebar 0.2s ease forwards;
+        -webkit-animation: toggle_sidebar 0.2s ease forwards;
+        -webkit-transition: transform 0.5s ease-in;
+        -moz-transition: transform 0.5s ease-in;
+        -ms-transition: transform 0.5s ease-in;
+        -o-transition: transform 0.5s ease-in;
+    }
+
+    @keyframes toggle_sidebar {
+        100% {
+            transform: none;
+            -webkit-transform: none;
+            -moz-transform: none;
+            -ms-transform: none;
+            -o-transform: none;
+        }
     }
 
 }
