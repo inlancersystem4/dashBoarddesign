@@ -345,9 +345,206 @@
             </aside>
 
             <div class="layout-content">
+                <div class="space-y-4">
+                    <div class="grid grid-cols-3 gap-4">
+                        <div class="w-full">
+                            <div class="bg-white p-6 space-y-4 rounded-2xl w-full shadow">
+                                <h4 class="text-xl font-semibold text-gray-900">Latest Customers</h4>
+                                <ul class="divide-y divide-[#E5E7EB]">
+                                    <li class=" py-2 flex items-center justify-between">
+                                        <div class="flex items-center gap-x-2">
+                                            <img src="./img/user_1.png" alt="user_1"
+                                                class="rounded-full min-w-[32px] min-h-[32px] max-w-[32px] max-h-[32px]" />
+                                            <div class="">
+                                                <h6 class="text-base font-semibold text-gray-900">Neil Sims</h6>
+                                                <p class="text-xs font-normal text-gray-900">email@example.com</p>
+                                            </div>
+                                        </div>
+                                        <h4 class="text-base font-semibold text-right text-gray-900">$367</h4>
+                                    </li>
+                                    <li class="py-2 flex items-center justify-between">
+                                        <div class="flex items-center gap-x-2">
+                                            <img src="./img/user_1.png" alt="user_1"
+                                                class="rounded-full min-w-[32px] min-h-[32px] max-w-[32px] max-h-[32px]" />
+                                            <div class="">
+                                                <h6 class="text-base font-semibold text-gray-900">Neil Sims</h6>
+                                                <p class="text-xs font-normal text-gray-900">email@example.com</p>
+                                            </div>
+                                        </div>
+                                        <h4 class="text-base font-semibold text-right text-gray-900">$367</h4>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-span-2">
+                            <div class="bg-white p-6 space-y-4 rounded-2xl w-full shadow">
+                                <h4 class="text-xl font-semibold text-gray-900">Top products</h4>
+                                <ul class="divide-y divide-[#E5E7EB]">
+                                    <li class=" py-2 flex items-center justify-between">
+                                        <div class="">
+                                            <h6 class="text-base font-semibold text-gray-900">Restaurant Booking App
+                                            </h6>
+                                            <p class="text-xs font-normal text-gray-900">React & Bootstrap Framework</p>
+                                        </div>
+                                        <h4 class="text-base font-semibold text-right text-gray-900">70 <span
+                                                class="text-gray-600">sales</span></h4>
+                                    </li>
+                                    <li class=" py-2 flex items-center justify-between">
+                                        <div class="">
+                                            <h6 class="text-base font-semibold text-gray-900">UI Kit
+                                            </h6>
+                                            <p class="text-xs font-normal text-gray-900">React & Bootstrap Framework</p>
+                                        </div>
+                                        <h4 class="text-base font-semibold text-right text-gray-900">54 <span
+                                                class="text-gray-600">sales</span></h4>
+                                    </li>
+                                    <li class=" py-2 flex items-center justify-between">
+                                        <div class="">
+                                            <h6 class="text-base font-semibold text-gray-900">Design System Pro
+                                            </h6>
+                                            <p class="text-xs font-normal text-gray-900">Bootstrap Framework</p>
+                                        </div>
+                                        <h4 class="text-base font-semibold text-right text-gray-900">47 <span
+                                                class="text-gray-600">sales</span></h4>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="bg-white p-4 rounded-2xl shadow overflow-auto w-full">
+                        <div class="space-y-4">
+                            <div>
+                                <h4 class="text-xl font-semibold text-gray-900">Transactions</h4>
+                                <p class="text-sm font-normal text-gray-500">This is a list of latest transactions.</p>
+                            </div>
+                            <table class="overflow-auto w-full rounded-t-2xl overflow-hidden">
+                                <tr class="bg-gray-50">
+                                    <th class="min-w-[237px] max-w-[237px] p-4 text-left">
+                                        <p class="uppercase text-xs font-semibold text-gray-500">TRANSACTION</p>
+                                    </th>
+                                    <th class="min-w-[325px] max-w-[325px] p-4 text-left">
+                                        <p class="uppercase text-xs font-semibold text-gray-500">DATE & TIME</p>
+                                    </th>
+                                    <th class="min-w-[373px] max-w-[373px] p-4 text-left">
+                                        <p class="uppercase text-xs font-semibold text-gray-500">AMOUNT</p>
+                                    </th>
+                                    <th class="min-w-[222px] max-w-[222px] p-4 text-left">
+                                        <p class="uppercase text-xs font-semibold text-gray-500">STATUS</p>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th class="min-w-[237px] max-w-[237px] p-4 text-left">
+                                        <p class="text-sm font-normal  text-gray-900">Payment from <span
+                                                class="font-semibold">Bonnie Green</span></p>
+                                    </th>
+                                    <th class="min-w-[325px] max-w-[325px] p-4 text-left">
+                                        <p class="text-sm font-normal text-gray-500">Apr 23 ,2021</p>
+                                    </th>
+                                    <th class="min-w-[373px] max-w-[373px] p-4 text-left">
+                                        <p class="text-base font-medium  text-gray-900">$2300</p>
+                                    </th>
+                                    <th class="min-w-[222px] max-w-[222px] p-4 text-left">
+                                        <span
+                                            class="px-2.5 py-0.5 rounded-full text-xs font-normal text-green-800 text-center bg-green-100 block w-fit">Completed</span>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th class="min-w-[237px] max-w-[237px] p-4 text-left">
+                                        <p class="text-sm font-normal  text-gray-900">Payment failed from  <span
+                                                class="font-semibold">#087651</span></p>
+                                    </th>
+                                    <th class="min-w-[325px] max-w-[325px] p-4 text-left">
+                                        <p class="text-sm font-normal text-gray-500">Apr 18, 2021</p>
+                                    </th>
+                                    <th class="min-w-[373px] max-w-[373px] p-4 text-left">
+                                        <p class="text-base font-medium  text-gray-900">$234</p>
+                                    </th>
+                                    <th class="min-w-[222px] max-w-[222px] p-4 text-left">
+                                        <span
+                                            class="px-2.5 py-0.5 rounded-full text-xs font-normal text-red-800 text-center bg-red-100 block w-fit">Cancelled</span>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th class="min-w-[237px] max-w-[237px] p-4 text-left">
+                                        <p class="text-sm font-normal  text-gray-900">Payment refund to  <span
+                                                class="font-semibold">#00910</span></p>
+                                    </th>
+                                    <th class="min-w-[325px] max-w-[325px] p-4 text-left">
+                                        <p class="text-sm font-normal text-gray-500">Apr 23 ,2021</p>
+                                    </th>
+                                    <th class="min-w-[373px] max-w-[373px] p-4 text-left">
+                                        <p class="text-base font-medium  text-gray-900">-$670</p>
+                                    </th>
+                                    <th class="min-w-[222px] max-w-[222px] p-4 text-left">
+                                        <span
+                                            class="px-2.5 py-0.5 rounded-full text-xs font-normal text-green-800 text-center bg-green-100 block w-fit">Completed</span>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th class="min-w-[237px] max-w-[237px] p-4 text-left">
+                                        <p class="text-sm font-normal  text-gray-900">Payment from <span
+                                                class="font-semibold"> Jese Leos</span></p>
+                                    </th>
+                                    <th class="min-w-[325px] max-w-[325px] p-4 text-left">
+                                        <p class="text-sm font-normal text-gray-500">Apr 15, 2021</p>
+                                    </th>
+                                    <th class="min-w-[373px] max-w-[373px] p-4 text-left">
+                                        <p class="text-base font-medium  text-gray-900">$2300</p>
+                                    </th>
+                                    <th class="min-w-[222px] max-w-[222px] p-4 text-left">
+                                        <span
+                                            class="px-2.5 py-0.5 rounded-full text-xs font-normal text-blue-800 text-center bg-blue-100 block w-fit">In progress</span>
+                                    </th>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
 
+                    <div class="bg-white py-12 px-8 rounded-2xl">
+                        <div class="w-full flex items-center justify-between">
+                            <p class="text-base font-normal text-gray-500">© 2021 Themesberg, LLC. All rights reserved.
+                            </p>
+                            <ul class="flex items-center gap-x-6">
+                                <li>
+                                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                            viewBox="0 0 24 25" fill="none">
+                                            <path
+                                                d="M16.0352 13.9746L16.5273 10.7402H13.3984V8.63086C13.3984 7.7168 13.8203 6.87305 15.2266 6.87305H16.668V4.0957C16.668 4.0957 15.3672 3.84961 14.1367 3.84961C11.5703 3.84961 9.88281 5.43164 9.88281 8.24414V10.7402H7V13.9746H9.88281V21.8496H13.3984V13.9746H16.0352Z"
+                                                fill="#111827" />
+                                        </svg></a>
+                                </li>
+                                <li>
+                                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                            viewBox="0 0 24 25" fill="none">
+                                            <path
+                                                d="M19.1367 9.4707C19.8398 8.94336 20.4727 8.31055 20.9648 7.57227C20.332 7.85352 19.5938 8.06445 18.8555 8.13477C19.6289 7.67773 20.1914 6.97461 20.4727 6.0957C19.7695 6.51758 18.9609 6.83398 18.1523 7.00977C17.4492 6.27148 16.5 5.84961 15.4453 5.84961C13.4062 5.84961 11.7539 7.50195 11.7539 9.54102C11.7539 9.82227 11.7891 10.1035 11.8594 10.3848C8.80078 10.209 6.05859 8.73242 4.23047 6.51758C3.91406 7.04492 3.73828 7.67773 3.73828 8.38086C3.73828 9.64648 4.37109 10.7715 5.39062 11.4395C4.79297 11.4043 4.19531 11.2637 3.70312 10.9824V11.0176C3.70312 12.8105 4.96875 14.2871 6.65625 14.6387C6.375 14.709 6.02344 14.7793 5.70703 14.7793C5.46094 14.7793 5.25 14.7441 5.00391 14.709C5.46094 16.1855 6.83203 17.2402 8.44922 17.2754C7.18359 18.2598 5.60156 18.8574 3.87891 18.8574C3.5625 18.8574 3.28125 18.8223 3 18.7871C4.61719 19.8418 6.55078 20.4395 8.66016 20.4395C15.4453 20.4395 19.1367 14.8496 19.1367 9.96289C19.1367 9.78711 19.1367 9.64648 19.1367 9.4707Z"
+                                                fill="#111827" />
+                                        </svg></a>
+                                </li>
+                                <li>
+                                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                            viewBox="0 0 24 25" fill="none">
+                                            <path
+                                                d="M8.80078 17.5605C8.80078 17.4902 8.73047 17.4199 8.625 17.4199C8.51953 17.4199 8.44922 17.4902 8.44922 17.5605C8.44922 17.6309 8.51953 17.7012 8.625 17.666C8.73047 17.666 8.80078 17.6309 8.80078 17.5605ZM7.71094 17.3848C7.71094 17.4551 7.78125 17.5605 7.88672 17.5605C7.95703 17.5957 8.0625 17.5605 8.09766 17.4902C8.09766 17.4199 8.0625 17.3496 7.95703 17.3145C7.85156 17.2793 7.74609 17.3145 7.71094 17.3848ZM9.29297 17.3496C9.1875 17.3496 9.11719 17.4199 9.11719 17.5254C9.11719 17.5957 9.22266 17.6309 9.32812 17.5957C9.43359 17.5605 9.50391 17.5254 9.46875 17.4551C9.46875 17.3848 9.36328 17.3145 9.29297 17.3496ZM11.5781 3.84961C6.72656 3.84961 3 7.57617 3 12.4277C3 16.3301 5.42578 19.6699 8.94141 20.8652C9.39844 20.9355 9.53906 20.6543 9.53906 20.4434C9.53906 20.1973 9.53906 19.002 9.53906 18.2637C9.53906 18.2637 7.07812 18.791 6.55078 17.209C6.55078 17.209 6.16406 16.1895 5.60156 15.9434C5.60156 15.9434 4.79297 15.3809 5.63672 15.3809C5.63672 15.3809 6.51562 15.4512 7.00781 16.2949C7.78125 17.666 9.04688 17.2793 9.57422 17.0332C9.64453 16.4707 9.85547 16.084 10.1367 15.8379C8.16797 15.627 6.16406 15.3457 6.16406 11.9707C6.16406 10.9863 6.44531 10.5293 7.00781 9.89648C6.90234 9.65039 6.62109 8.73633 7.11328 7.50586C7.81641 7.29492 9.53906 8.45508 9.53906 8.45508C10.2422 8.24414 10.9805 8.17383 11.7188 8.17383C12.4922 8.17383 13.2305 8.24414 13.9336 8.45508C13.9336 8.45508 15.6211 7.25977 16.3594 7.50586C16.8516 8.73633 16.5352 9.65039 16.4648 9.89648C17.0273 10.5293 17.3789 10.9863 17.3789 11.9707C17.3789 15.3457 15.3047 15.627 13.3359 15.8379C13.6523 16.1191 13.9336 16.6465 13.9336 17.4902C13.9336 18.6504 13.8984 20.127 13.8984 20.4082C13.8984 20.6543 14.0742 20.9355 14.5312 20.8301C18.0469 19.6699 20.4375 16.3301 20.4375 12.4277C20.4375 7.57617 16.4648 3.84961 11.5781 3.84961ZM6.41016 15.9785C6.33984 16.0137 6.375 16.1191 6.41016 16.1895C6.48047 16.2246 6.55078 16.2598 6.62109 16.2246C6.65625 16.1895 6.65625 16.084 6.58594 16.0137C6.51562 15.9785 6.44531 15.9434 6.41016 15.9785ZM6.02344 15.6973C5.98828 15.7676 6.02344 15.8027 6.09375 15.8379C6.16406 15.873 6.23438 15.873 6.26953 15.8027C6.26953 15.7676 6.23438 15.7324 6.16406 15.6973C6.09375 15.6621 6.05859 15.6621 6.02344 15.6973ZM7.14844 16.9629C7.11328 16.998 7.11328 17.1035 7.21875 17.1738C7.28906 17.2441 7.39453 17.2793 7.42969 17.209C7.46484 17.1738 7.46484 17.0684 7.39453 16.998C7.32422 16.9277 7.21875 16.8926 7.14844 16.9629ZM6.76172 16.4355C6.69141 16.4707 6.69141 16.5762 6.76172 16.6465C6.83203 16.7168 6.90234 16.752 6.97266 16.7168C7.00781 16.6816 7.00781 16.5762 6.97266 16.5059C6.90234 16.4355 6.83203 16.4004 6.76172 16.4355Z"
+                                                fill="#111827" />
+                                        </svg></a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                            viewBox="0 0 24 25" fill="none">
+                                            <path
+                                                d="M11.7188 3.84961C6.90234 3.84961 3 7.78711 3 12.5684C3 17.3848 6.90234 21.2871 11.7188 21.2871C16.5 21.2871 20.4375 17.3848 20.4375 12.5684C20.4375 7.78711 16.5 3.84961 11.7188 3.84961ZM17.4492 7.89258C18.5039 9.1582 19.1367 10.7754 19.1367 12.5332C18.8906 12.4629 16.4297 11.9707 13.9688 12.2871C13.7578 11.7949 13.582 11.373 13.3008 10.8105C16.0781 9.68555 17.3086 8.10352 17.4492 7.89258ZM16.6406 7.01367C16.5 7.22461 15.375 8.73633 12.7383 9.7207C11.5078 7.4707 10.1719 5.64258 9.96094 5.36133C12.3164 4.79883 14.8125 5.39648 16.6406 7.01367ZM8.51953 5.85352C8.73047 6.13477 10.0664 7.96289 11.2969 10.1777C7.81641 11.0918 4.75781 11.0918 4.40625 11.0566C4.89844 8.77148 6.44531 6.83789 8.51953 5.85352ZM4.26562 12.6035C4.26562 12.5332 4.26562 12.4629 4.26562 12.3574C4.58203 12.3926 8.20312 12.4277 11.8945 11.3027C12.1406 11.7246 12.3164 12.1465 12.5273 12.5684C9.82031 13.3418 7.35938 15.5215 6.16406 17.5605C4.96875 16.2598 4.26562 14.502 4.26562 12.6035ZM7.11328 18.4746C7.92188 16.8926 10.0312 14.8184 13.0195 13.7988C14.0742 16.5059 14.4961 18.791 14.6016 19.459C12.2109 20.4785 9.32812 20.1973 7.11328 18.4746ZM15.8672 18.7559C15.7969 18.334 15.375 16.1543 14.4258 13.4473C16.7461 13.0957 18.7852 13.6934 19.0664 13.7637C18.7148 15.8379 17.5195 17.6309 15.8672 18.7559Z"
+                                                fill="#111827" />
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
 
+                </div>
             </div>
 
         </main>
@@ -366,4 +563,4 @@
 
 </body>
 
-</html>
+</html>`
